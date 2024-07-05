@@ -1,0 +1,117 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sun Jan 28 15:44:03 2024
+| Host         : ThinkpadAlexis running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file circuit_tr_signal_control_sets_placed.rpt
+| Design       : circuit_tr_signal
+| Device       : xc7z010
+----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    39 |
+|    Minimum number of control sets                        |    39 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   163 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    39 |
+| >= 0 to < 4        |    14 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     5 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     3 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    10 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             247 |           90 |
+| No           | No                    | Yes                    |              24 |           12 |
+| No           | Yes                   | No                     |              41 |           14 |
+| Yes          | No                    | No                     |              46 |           17 |
+| Yes          | No                    | Yes                    |             111 |           41 |
+| Yes          | Yes                   | No                     |              24 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------+------------------+----------------+--------------+
+|                                 Clock Signal                                |                             Enable Signal                            |                              Set/Reset Signal                              | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------+------------------+----------------+--------------+
+|  design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC_i_1_n_0 |                                                                      | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC_i_1_n_0 |                                                                      | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC_i_1_n_0 |                                                                      | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_str_dat                   |                                                                      | design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC_i_2_n_0                      |                1 |              1 |         1.00 |
+|  design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_str_dat                   |                                                                      | design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC_i_1_n_0                      |                1 |              1 |         1.00 |
+| ~inst_synchro/inst_gen_clk_codec/I                                          |                                                                      |                                                                            |                1 |              1 |         1.00 |
+| ~inst_synchro/inst_gen_clk_codec/i_lrc                                      |                                                                      | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~inst_synchro/inst_gen_clk_codec/i_lrc                                      |                                                                      | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~inst_synchro/inst_gen_clk_codec/i_lrc                                      |                                                                      | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                |                                                                      | inst_init_codec/d_cfg_done                                                 |                1 |              1 |         1.00 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_init_codec/inst_ctrl_i2c/i_stb_write                            | inst_init_codec/inst_ctrl_i2c/FSM_onehot_fsm_i2c_etat_courant_reg_n_0_[6]  |                1 |              1 |         1.00 |
+|  design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC_i_1_n_0                      |                                                                      | design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC_i_2_n_0                      |                1 |              1 |         1.00 |
+|  design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC_i_1_n_0                      |                                                                      | design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC_i_2_n_0                      |                1 |              1 |         1.00 |
+|  inst_synchro/inst_synchro/o_ac_mclk_OBUF                                   |                                                                      |                                                                            |                1 |              3 |         3.00 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M8_commande/U0/inst_cond_btn/inst_strb_bit/E[0]           |                                                                            |                1 |              4 |         4.00 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_init_codec/inst_ctrl_i2c/d_delai_synch                          |                                                                            |                1 |              4 |         4.00 |
+|  design_1_i/M5_parametre_1/U0/compteur__0                                   |                                                                      |                                                                            |                2 |              7 |         3.50 |
+|  design_1_i/M5_parametre_1/U0/o_param_reg[7]_i_2_n_0                        |                                                                      |                                                                            |                2 |              7 |         3.50 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/o_bit_enable           | design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/o_cpt_bit_reset              |                3 |              7 |         2.33 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_bit_enable          | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_cpt_bit_reset             |                3 |              7 |         2.33 |
+|  inst_synchro/inst_synchro/o_ac_mclk_OBUF                                   |                                                                      | inst_synchro/inst_gen_clk_codec/eqOp                                       |                2 |              8 |         4.00 |
+|  design_1_i/M6_parametre_2/U0/o_param_reg[7]_i_1_n_0                        |                                                                      |                                                                            |                2 |              8 |         4.00 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_init_codec/inst_ctrl_i2c/inst_i2c_master/addr_rw0               |                                                                            |                6 |              9 |         1.50 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_init_codec/inst_ctrl_i2c/inst_i2c_master/busy1                  |                                                                            |                5 |              9 |         1.80 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_synchro/inst_synchro/inst_strb_1000Hz/d_strobe_1000Hz           |                                                                            |                2 |              9 |         4.50 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_init_codec/inst_ctrl_i2c/i_stb_write                            |                                                                            |                2 |             11 |         5.50 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                |                                                                      | inst_synchro/inst_synchro/eqOp1_in                                         |                3 |             12 |         4.00 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_synchro/inst_synchro/ValueCounter2                              | inst_synchro/inst_synchro/ValueCounter3                                    |                3 |             12 |         4.00 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                | inst_synchro/inst_synchro/eqOp1_in                                   | inst_synchro/inst_synchro/ValueCounter2                                    |                3 |             12 |         4.00 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 |                                                                      | design_1_i/M10_conversion_affichage/U0/clear                               |                4 |             16 |         4.00 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 |                                                                      | design_1_i/M8_commande/U0/o_reset                                          |                6 |             18 |         3.00 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_load_left           | design_1_i/M8_commande/U0/o_reset                                          |                9 |             24 |         2.67 |
+| ~inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg[23]_i_1_n_0 | design_1_i/M8_commande/U0/o_reset                                          |                9 |             24 |         2.67 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_bit_enable          | design_1_i/M8_commande/U0/o_reset                                          |                7 |             24 |         3.43 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 | design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_load_right          | design_1_i/M8_commande/U0/o_reset                                          |                9 |             24 |         2.67 |
+|  inst_synchro/inst_gen_clk_codec/clk_100MHz                                 |                                                                      |                                                                            |               12 |             33 |         2.75 |
+|  inst_synchro/inst_synchro/PLLE2_BASE_inst_0                                |                                                                      |                                                                            |               19 |             44 |         2.32 |
+| ~design_1_i/M6_parametre_2/U0/Sreg_BUFG[0]                                  |                                                                      |                                                                            |               23 |             48 |         2.09 |
+| ~design_1_i/M6_parametre_2/U0/Sreg_BUFG[1]                                  |                                                                      |                                                                            |               28 |             96 |         3.43 |
++-----------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

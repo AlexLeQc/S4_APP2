@@ -1,0 +1,1897 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sun Jan 28 15:44:14 2024
+| Host         : ThinkpadAlexis running 64-bit major release  (build 9200)
+| Command      : report_methodology -file circuit_tr_signal_methodology_drc_routed.rpt -pb circuit_tr_signal_methodology_drc_routed.pb -rpx circuit_tr_signal_methodology_drc_routed.rpx
+| Design       : circuit_tr_signal
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 369
++-----------+------------------+----------------------------------+------------+
+| Rule      | Severity         | Description                      | Violations |
++-----------+------------------+----------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell      | 187        |
+| HPDR-1    | Warning          | Port pin direction inconsistency | 1          |
+| LUTAR-1   | Warning          | LUT drives async reset alert     | 10         |
+| TIMING-20 | Warning          | Non-clocked latch                | 171        |
++-----------+------------------+----------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/SEL_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M10_conversion_affichage/U0/counta_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Sreg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Sreg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Sreg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_droite/U0/q_reg_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_24bits_gauche/U0/q_reg_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M1_decodeur_i2s/registre_decalage_24bits/U0/q_shift_reg_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M5_parametre_1/U0/FSM_sequential_Sreg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M5_parametre_1/U0/FSM_sequential_Sreg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M6_parametre_2/U0/Snext_reg[0]_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M6_parametre_2/U0/Snext_reg[1]_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M6_parametre_2/U0/Sreg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M6_parametre_2/U0/Sreg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/FSM_sequential_Sreg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/FSM_sequential_Sreg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/ValueCounter_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/d_btn_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/d_btn_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/d_btn_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/inst_strb_bit/q_don_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q0_btn_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q0_btn_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q0_btn_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q0_btn_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q1_btn_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q1_btn_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q1_btn_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q1_btn_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q2_btn_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q2_btn_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q2_btn_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/inst_cond_btn/q2_btn_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M8_commande/U0/o_reset_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/FSM_onehot_fsm_EtatCourant_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/M9_codeur_i2s/reg_dec_24b_fd_0/U0/q_shift_reg_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Critical Warning
+Non-clocked sequential cell  
+The clock pin inst_synchro/inst_gen_clk_codec/q_reclrc_reg/C is not reached by a timing clock
+Related violations: <none>
+
+HPDR-1#1 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) io_ac_sda direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (io_ac_sda) connected to this Port, but both were not found.
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_C/CLR
+design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#5 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#6 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/o_cpt_bit_reset_INST_0, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[0]/CLR,
+design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[1]/CLR,
+design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[2]/CLR,
+design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[3]/CLR,
+design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[4]/CLR,
+design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[5]/CLR
+design_1_i/M1_decodeur_i2s/compteur_7bits/U0/d_val_cpt_reg[6]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#7 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M6_parametre_2/U0/Snext_reg[0]_C/CLR
+design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#8 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M6_parametre_2/U0/Snext_reg[1]_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#9 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#10 Warning
+LUT drives async reset alert  
+LUT cell design_1_i/M9_codeur_i2s/mef_cod_i2s_vsb_0/U0/o_cpt_bit_reset_INST_0, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[0]/CLR,
+design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[1]/CLR,
+design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[2]/CLR,
+design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[3]/CLR,
+design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[4]/CLR,
+design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[5]/CLR
+design_1_i/M9_codeur_i2s/compteur_nbits_0/U0/d_val_cpt_reg[6]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC cannot be properly analyzed as its control pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[0]__1_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC cannot be properly analyzed as its control pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[1]__1_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC cannot be properly analyzed as its control pin design_1_i/M1_decodeur_i2s/MEF_decodeur_i2s/U0/Snext_reg[2]__1_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[0] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[1] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[2] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[3] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[4] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[5] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/compteur_reg[6] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/compteur_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[1] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[2] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[3] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[4] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[5] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[6] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch design_1_i/M5_parametre_1/U0/o_param_reg[7] cannot be properly analyzed as its control pin design_1_i/M5_parametre_1/U0/o_param_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/Snext_reg[0]_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/Snext_reg[1]_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[10] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[11] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[12] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[13] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[14] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[15] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[16] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[17] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[18] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[19] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[20] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[21] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[22] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[23] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[24] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[25] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[26] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[27] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[28] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[29] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[30] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[31] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[32] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[32]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[33] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[33]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[34] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[34]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[35] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[35]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[36] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[36]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[37] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[37]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[38] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[38]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[39] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[39]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[40] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[40]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[41] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[41]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[42] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[42]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[43] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[43]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[44] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[44]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[45] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[45]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[46] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[46]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[47] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[47]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[48] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[48]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[49] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[49]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[50] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[50]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[51] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[51]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[52] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[52]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[5] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[6] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[7] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[8] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/a_reg[9] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/a_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[0] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[1] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[2] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[3] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[4] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[5] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[6] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/o_param_reg[7] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/o_param_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[0] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[10] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[11] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[12] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[13] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[14] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[15] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[16] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[17] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[18] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[19] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[1] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[20] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[21] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[22] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[23] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[24] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[25] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[26] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[27] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[28] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[29] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[2] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[30] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[31] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[32] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[32]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[33] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[33]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[34] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[34]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#104 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[35] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[35]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#105 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[36] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[36]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#106 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[37] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[37]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#107 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[38] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[38]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#108 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[39] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[39]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#109 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[3] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#110 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[40] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[40]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#111 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[41] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[41]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#112 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[42] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[42]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#113 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[43] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[43]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#114 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[44] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[44]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#115 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[45] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[45]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#116 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[46] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[46]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#117 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[47] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[47]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#118 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[4] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#119 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[5] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#120 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[6] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#121 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[7] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#122 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[8] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#123 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/x_reg[9] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/x_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#124 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[0] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#125 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[10] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#126 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[11] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#127 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[12] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#128 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[13] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#129 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[14] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#130 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[15] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#131 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[16] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#132 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[17] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#133 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[18] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#134 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[19] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#135 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[1] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#136 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[20] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#137 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[21] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#138 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[22] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#139 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[23] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#140 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[24] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#141 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[25] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#142 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[26] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#143 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[27] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#144 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[28] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#145 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[29] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#146 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[2] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#147 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[30] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#148 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[31] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#149 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[32] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[32]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#150 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[33] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[33]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#151 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[34] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[34]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#152 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[35] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[35]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#153 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[36] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[36]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#154 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[37] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[37]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#155 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[38] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[38]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#156 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[39] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[39]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#157 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[3] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#158 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[40] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[40]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#159 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[41] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[41]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#160 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[42] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[42]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#161 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[43] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[43]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#162 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[44] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[44]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#163 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[45] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[45]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#164 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[46] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[46]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#165 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[47] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[47]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#166 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[4] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#167 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[5] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#168 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[6] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#169 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[7] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#170 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[8] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#171 Warning
+Non-clocked latch  
+The latch design_1_i/M6_parametre_2/U0/y_reg[9] cannot be properly analyzed as its control pin design_1_i/M6_parametre_2/U0/y_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+
